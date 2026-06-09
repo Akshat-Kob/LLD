@@ -1,0 +1,10 @@
+S - SRP
+One class = One responsibility.
+O - OCP
+Add new behavior without modifying existing code.
+L - LSP
+Child should safely replace parent.
+I - ISP
+Don't force classes to implement methods they don't need.
+D - DIP
+Depend on abstractions, not concrete classes.

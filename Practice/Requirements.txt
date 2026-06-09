@@ -1,0 +1,15 @@
+Requirements
+↓
+Identify Entities
+↓
+Draw Basic UML
+↓
+Identify SOLID violations
+↓
+Refine UML
+↓
+Write Code
+↓
+Refactor using Patterns
+↓
+Review SOLID again
