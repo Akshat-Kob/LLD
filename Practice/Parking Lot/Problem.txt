@@ -1,0 +1,67 @@
+A parking lot has multiple parking spots. Vehicles enter the parking lot, are assigned an appropriate parking spot, and receive a parking ticket. When the vehicle exits, the ticket is used to free the parking spot and calculate the parking charges.
+
+Step 3: Circle Nouns
+Read requirement:
+A vehicle enters a parking lot,
+gets a parking ticket,
+occupies a parking spot.
+
+Circle nouns:
+Vehicle
+Parking Lot
+Parking Spot
+Ticket
+
+These are strong candidates for entities.
+
+Step 4: Check State
+Ask:
+Does it store information?
+Example:
+Vehicle
+Stores:
+vehicleNumber
+vehicleType
+
+Entity.
+Example:
+Parking Spot
+Stores:
+spotId
+isOccupied
+spotType
+
+Entity.
+
+Step 5: Check Behavior
+Ask:
+Does it perform actions?
+Example:
+Ticket
+Actions:
+generate()
+calculateCharge()
+
+IMPROVEMENTS
+One UML Improvement
+
+Your UML currently has:
+
+Charges
+rate
+amount
+duration
+
+I would add:
+
+VehicleType vehicleType
+
+later.
+
+Because:
+
+Bike  -> ₹10/hr
+Car   -> ₹20/hr
+Truck -> ₹50/hr
+
+Different vehicles usually have different rates.
